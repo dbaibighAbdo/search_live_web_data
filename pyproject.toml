@@ -5,5 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "asyncio>=4.0.0",
+    "dotenv>=0.9.9",
+    "langchain-mcp-adapters>=0.1.9",
+    "langchain-openai>=0.3.32",
     "langgraph>=0.6.6",
+    "notebook>=7.4.5",
 ]
